@@ -23,9 +23,9 @@ const Footer = () => {
         />
       </div>
       <div className="border-t-2 border-b-2 py-4 max-h-20  flex flex-row justify-between ">
-        <div className="flex gap-5">
+        <div className="flex gap-2 md:gap-5">
           <BiDroplet />
-          <p className="flex gap-2 items-center">
+          <p className="flex md:flex-row flex-col md:gap-2 items-center text-sm md:text-md">
             Copyright <BiCopyright /> 2025 - The News- All rights reserved
           </p>
         </div>
