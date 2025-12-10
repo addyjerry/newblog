@@ -199,6 +199,162 @@ export const technology: Post[] = [
   },
 ];
 
+export const politics: Post[] = [
+  {
+    slug: "politics/latest-innovations-pave-the-way-to-a-sustainable-future",
+    header: "Latest innovations pave the way to a sustainable future",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/politics/ec.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "politics/understanding-the-role-of-big-data-in-driving-technologies",
+    header: "Understanding the role of big data in driving technologies",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/politics/election.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "politics/exploring-the-latest-developments-in-ai-robotics",
+    header: "Exploring the latest developments in AI, robotics",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/politics/kamala.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "politics/future-of-computing-and-what-it-means-today-in-society",
+    header: "Future computing and what it means today in society",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/politics/musk.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "politics/futur-of-computing-and-what-it-means-today-in-society",
+    header: "Future computing and what it means today in society",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/politics/trump.png",
+    reporter: "Guy Hawkins",
+  },
+];
+
+export const health: Post[] = [
+  {
+    slug: "health/latest-innovations-pave-the-way-to-a-sustainable-future",
+    header: "Latest innovations pave the way to a sustainable future",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/health/genetic.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "health/understanding-the-role-of-big-data-in-driving-technologies",
+    header: "Understanding the role of big data in driving technologies",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/health/patient.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "health/exploring-the-latest-developments-in-ai-robotics",
+    header: "Exploring the latest developments in AI, robotics",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/health/policies.png",
+    reporter: "Guy Hawkins",
+  },
+];
+
+export const culture: Post[] = [
+  {
+    slug: "culture/latest-innovations-pave-the-way-to-a-sustainable-future",
+    header: "Latest innovations pave the way to a sustainable future",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/culture/deepdive.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "culture/understanding-the-role-of-big-data-in-driving-technologies",
+    header: "Understanding the role of big data in driving technologies",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/culture/globalefforts.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "culture/exploring-the-latest-developments-in-ai-robotics",
+    header: "Exploring the latest developments in AI, robotics",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/culture/preserving.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "culture/future-of-computing-nd-what-it-means-today-in-society",
+    header: "Future computing and what it means today in society",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/culture/redefining.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "culture/future-of-computing-and-what-it-means-today-in-society",
+    header: "Future computing and what it means today in society",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/culture/socialnarratives.png",
+    reporter: "Guy Hawkins",
+  },
+];
+
+export const business: Post[] = [
+  {
+    slug: "business/latest-innovations-pave-the-way-to-a-sustainable-future",
+    header: "Latest innovations pave the way to a sustainable future",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/business/innovation.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "business/understanding-the-role-of-big-data-in-driving-technologies",
+    header: "Understanding the role of big data in driving technologies",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/business/landscape.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "business/exploring-the-latest-developments-in-ai-robotics",
+    header: "Exploring the latest developments in AI, robotics",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/business/ship.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "business/future-of-computing-and-what-it-means-today-in-society",
+    header: "Future computing and what it means today in society",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/business/economy.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "business/future-of-computing-and-what-it-means-today-insociety",
+    header: "Future computing and what it means today in society",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/business/solution.png",
+    reporter: "Guy Hawkins",
+  },
+];
+
 export const podcast: Post[] = [
   {
     slug: "podcast/riding-the-tide-of=innovation-and-inspiration",
@@ -246,6 +402,41 @@ export const podcast: Post[] = [
     content:
       "The podcast bridges people, ideas and perspectives and fostering meaningful conversations",
     imageUrl: "/images/podcasts/ideas.png",
+    reporter: "Guy Hawkins",
+  },
+];
+
+export const sports: Post[] = [
+  {
+    slug: "sports/latest-innovations-pave-the-way-to-a-sustainable-future",
+    header: "Latest innovations pave the way to a sustainable future",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/sports/aspiring.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "sports/understanding-the-role-of-big-data-in-driving-technologies",
+    header: "Understanding the role of big data in driving technologies",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/sports/diversity.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "sports/exploring-the-latest-developments-in-ai-robotics",
+    header: "Exploring the latest developments in AI, robotics",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/sports/professional.png",
+    reporter: "Guy Hawkins",
+  },
+  {
+    slug: "sports/future-of-computing-and-what-it-means-today-in-society",
+    header: "Future computing and what it means today in society",
+    content:
+      "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
+    imageUrl: "/images/sports/sponsorship.png",
     reporter: "Guy Hawkins",
   },
 ];

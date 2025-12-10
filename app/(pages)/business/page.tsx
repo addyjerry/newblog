@@ -1,5 +1,5 @@
 import React from "react";
-import { posts, worldNews } from "@/public/lib/posts";
+import { business, posts, worldNews } from "@/public/lib/posts";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ const Page = () => {
       {/* header area */}
       <div className="flex justify-between flex-wrap">
         {/* blog cards */}
-        {worldNews.map((news) => (
+        {business.map((news) => (
           <Link
             href={news.slug}
             className="flex flex-col gap-2 max-w-sm"

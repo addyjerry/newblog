@@ -60,7 +60,7 @@ export default function Home() {
           <p className="text-center">Sep 9,2025 - 3 months</p>
         </span>
         <div className="flex flex-col md:flex-row md:justify-between gap-4">
-          <h2 className="font-bold lg:text-5xl md:text-3xl text-2xl md:max-w-3/4 w-full text-center">
+          <h2 className="font-bold lg:text-5xl md:text-3xl text-2xl md:max-w-3/4 w-full text-center md:text-start">
             {latest.header}
           </h2>
           <Link
