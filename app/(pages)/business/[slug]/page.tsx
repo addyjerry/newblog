@@ -1,18 +1,21 @@
-// app/world-news/[slug]/page.tsx
-import { posts } from "@/public/lib/posts";
+// app/(pages)/business/[slug]/page.tsx
+import { business } from "@/lib/posts";
 import { notFound } from "next/navigation";
 
 export default async function Page({
   params,
 }: {
-  params: Promise<{ slug: string }>; // Note: Promise!
+  params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
 
-  const post = posts.find((p) => p.slug === slug);
+  // posts in `business` have slugs like "business/your-article-slug".
+  // The route param `slug` contains only the tail (the part after `/business/`).
+  // Match by checking the post slug endsWith the param.
+  const post = business.find((p) => p.slug.endsWith(slug));
 
   if (!post) {
-    notFound();
+    return notFound();
   }
 
   return (

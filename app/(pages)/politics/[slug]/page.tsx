@@ -1,18 +1,18 @@
-// app/world-news/[slug]/page.tsx
-import { posts } from "@/public/lib/posts";
+// app/(pages)/politics/[slug]/page.tsx
+import { politics } from "@/lib/posts";
 import { notFound } from "next/navigation";
 
 export default async function Page({
   params,
 }: {
-  params: Promise<{ slug: string }>; // Note: Promise!
+  params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
 
-  const post = posts.find((p) => p.slug === slug);
+  const post = politics.find((p) => p.slug.endsWith(slug));
 
   if (!post) {
-    notFound();
+    return notFound();
   }
 
   return (

@@ -5,7 +5,7 @@ import {
   podcast,
   technology,
   worldNews,
-} from "@/public/lib/posts";
+} from "@/lib/posts";
 import Image from "next/image";
 import Link from "next/link";
 import { BiRightArrowCircle } from "react-icons/bi";

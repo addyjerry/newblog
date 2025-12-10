@@ -1,5 +1,5 @@
 import React from "react";
-import { posts, sports, worldNews } from "@/public/lib/posts";
+import { posts, sports, worldNews } from "@/lib/posts";
 import Image from "next/image";
 import Link from "next/link";
 

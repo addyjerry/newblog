@@ -166,7 +166,7 @@ export const worldNews: Post[] = [
 ];
 export const technology: Post[] = [
   {
-    slug: "technology/latest-innovations-pave-the-way-to-a-sustainable-future",
+    slug: "/technology/latest-innovations-pave-the-way-to-a-sustainable-future",
     header: "Latest innovations pave the way to a sustainable future",
     content:
       "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
@@ -174,7 +174,7 @@ export const technology: Post[] = [
     reporter: "Guy Hawkins",
   },
   {
-    slug: "technology/understanding-the-role-of-big-data-in-driving-technologies",
+    slug: "/technology/understanding-the-role-of-big-data-in-driving-technologies",
     header: "Understanding the role of big data in driving technologies",
     content:
       "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
@@ -182,7 +182,7 @@ export const technology: Post[] = [
     reporter: "Guy Hawkins",
   },
   {
-    slug: "technology/exploring-the-latest-developments-in-ai-robotics",
+    slug: "/technology/exploring-the-latest-developments-in-ai-robotics",
     header: "Exploring the latest developments in AI, robotics",
     content:
       "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
@@ -190,7 +190,7 @@ export const technology: Post[] = [
     reporter: "Guy Hawkins",
   },
   {
-    slug: "technology/future-of-computing-and-what-it-means-today-in-society",
+    slug: "/technology/future-of-computing-and-what-it-means-today-in-society",
     header: "Future computing and what it means today in society",
     content:
       "lorem ipsum A deep dive into the influence of cultural movement on contemporary society",
