@@ -12,7 +12,7 @@ import { BiRightArrowCircle } from "react-icons/bi";
 
 export default function Home() {
   return (
-    <main className="items-center w-full max-w-[1500px] place-self-center bg-blue-50">
+    <main className="items-center w-full max-w-[1500px] place-self-center ">/
       {/* header area */}
       <div className="flex md:justify-between flex-1 flex-wrap justify-center">
         {/* blog cards */}
