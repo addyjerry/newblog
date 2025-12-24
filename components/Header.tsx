@@ -3,6 +3,7 @@ import TodayDate from "./Date";
 import Image from "next/image";
 import { BiChevronRight, BiSearch } from "react-icons/bi";
 import Navbar from "./Navbar";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -19,13 +20,15 @@ const Header = () => {
       </div>
       {/* my logo */}
       <div className=" items-center justify-center p-10 place-self-center">
-        <Image
-          src="/icons/header.svg"
-          alt="page-logo"
-          width={300}
-          height={300}
-          className=""
-        />
+        <Link href="/">
+          <Image
+            src="/icons/header.svg"
+            alt="page-logo"
+            width={300}
+            height={300}
+            className=""
+          />
+        </Link>
       </div>
       {/* nav-section */}
       <Navbar />

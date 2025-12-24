@@ -12,8 +12,8 @@ import { BiRightArrowCircle } from "react-icons/bi";
 
 export default function Home() {
   return (
-    <main className="items-center w-full max-w-[1500px] place-self-center ">/
-      {/* header area */}
+    <main className="items-center w-full max-w-[1500px] place-self-center ">
+      /{/* header area */}
       <div className="flex md:justify-between flex-1 flex-wrap justify-center">
         {/* blog cards */}
         {headerPost.map((post, index) => (
@@ -183,7 +183,7 @@ export default function Home() {
           <span className="flex justify-between p-5 border-b-2 ">
             <h2 className="font-bold text-2xl">TECHNOLOGY</h2>
             <Link
-              href="/world-news"
+              href="/technology"
               className="flex gap-1 items-center cursor-pointer hover:text-red-500"
             >
               View More
@@ -219,7 +219,7 @@ export default function Home() {
           <span className="flex justify-between p-5 border-b-2 ">
             <h2 className="font-bold text-2xl">PODCAST</h2>
             <Link
-              href="/world-news"
+              href="/podcast"
               className="flex gap-1 items-center cursor-pointer hover:text-red-500"
             >
               View More

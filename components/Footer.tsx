@@ -8,19 +8,22 @@ import {
   BsTwitter,
   BsYoutube,
 } from "react-icons/bs";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <div className="border-t-3 mt-5 items-center w-full max-w-[1500px] place-self-center">
       {/* my logo */}
       <div className=" items-center justify-center p-10 place-self-center">
-        <Image
-          src="/icons/header.svg"
-          alt="page-logo"
-          width={200}
-          height={200}
-          className=""
-        />
+        <Link href="/">
+          <Image
+            src="/icons/header.svg"
+            alt="page-logo"
+            width={200}
+            height={200}
+            className=""
+          />
+        </Link>
       </div>
       <div className="border-t-2 border-b-2 py-4 max-h-20  flex flex-row justify-between ">
         <div className="flex gap-2 md:gap-5">
